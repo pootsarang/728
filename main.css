@@ -14,3 +14,85 @@ a{
     text-decoration: none;
     color: #333;
 }
+
+/* 공통 영역 */
+.inner{
+    position: relative;
+    width: 1180px;
+    margin: auto;
+    /* background-color: red; */
+}
+
+/* 전체 레이아웃 */
+
+/* 상단 */
+.header{
+    width: 100%;
+}
+
+.header .inner{
+    height: 120px;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+/* 상단 위 */
+
+.header-top{
+    height: 60px;
+    /* background-color: rgb(146, 255, 169); */
+}
+
+.util{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+
+.util li a{
+    font-size: 15px;
+
+}
+
+/* 상단 아래 */
+
+.header-bottom{
+    height: 60px;
+    /* background-color: rgb(217, 216, 253); */
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.gnb{
+    display: flex;
+    width: 750px;
+    justify-content: space-between
+}
+
+.gnb li{
+    width: calc(100% / 5);
+}
+
+.gnb li a{
+    line-height: 60px;
+    /* background-color: aquamarine; */
+    display: block;
+    width:  100%;
+    text-align: center;
+
+}
+
+.gnb li a:hover{
+    background-color: #333;
+    color: white;
+}
+    
+
+
+
+/* 비주얼 */
+
+/* 뉴스 */
+
+/* 하단 */
