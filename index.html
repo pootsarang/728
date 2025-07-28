@@ -1,65 +1,97 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css" />
 
     <!-- favicon -->
-<link rel="icon" type="image/png" href="assets/favicon/favicon-96x96.png" sizes="96x96" />
-<link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg" />
-<link rel="shortcut icon" href="assets/favicon/favicon.ico" />
-<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
-<link rel="manifest" href="assets/favicon/site.webmanifest" />
-
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+  </head>
+  <body>
     <!-- 전체 레이아웃 -->
     <div class="wrap">
-        <!-- 상단 -->
-         <header class="header">
-            <div class="inner">
-                <!-- 상단 위 -->
-                 <div class="header-top">
-                    <ul class="util">
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Help</a></li>
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">Join</a></li>
-                        <li><a href="#">Sitemap</a></li>
-                    </ul>
-                 </div>
-                 <!-- 상단 아래 -->
-                  <div class="header-bottom">
-                    <!-- 로고 -->
-                     <h1><a href="#">DOCODE</a></h1>
-                     <!-- 메뉴 -->
-                      <ul class="gnb">
-                        <li><a href="#">DEPARTMENT</a></li>
-                        <li><a href="#">GALLERY</a></li>
-                        <li><a href="#">YOUTUBE</a></li>
-                        <li><a href="#">COMMUNITY</a></li>
-                        <li><a href="#">LOCATION</a></li>
-                      </ul>
-                  </div>
-            </div>
-         </header>
-         <!-- 비주얼 -->
-          <!-- figure 태그: 독집적인 콘텐츠를 담는 데에 사용한다. -->
-          <figure class="figure">
+      <!-- 상단 -->
+      <header class="header">
+        <div class="inner">
+          <!-- 상단 위 -->
+          <div class="header-top">
+            <ul class="util">
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Join</a></li>
+              <li><a href="#">Sitemap</a></li>
+            </ul>
+          </div>
+          <!-- 상단 아래 -->
+          <div class="header-bottom">
+            <!-- 로고 -->
+            <h1><a href="#">DOCODE</a></h1>
+            <!-- 메뉴 -->
+            <ul class="gnb">
+              <li><a href="#">DEPARTMENT</a></li>
+              <li><a href="#">GALLERY</a></li>
+              <li><a href="#">YOUTUBE</a></li>
+              <li><a href="#">COMMUNITY</a></li>
+              <li><a href="#">LOCATION</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- 비주얼 -->
+      <!-- figure 태그: 독집적인 콘텐츠를 담는 데에 사용한다. -->
+      <figure `class="figure">
+        <!-- 비디오 -->
+        <video autoplay loop>
+          <source src="./images/images/visual.mp4" type="video/mp4" />
+        </video>
+        <!-- 비디오 내용 -->
 
-          </figure>
-          <!-- 뉴스 -->
-           <section class="section">
+        <div class="inner">
+          <h2>INOVATION</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />
+            Id praesentium molestias similique quaerat magni facere in a?
+            Adipisci, possimus reprehenderit!
+          </p>
 
-           </section>
-           <!-- 하단 -->
-            <footer class="footer">
-
-            </footer>
-
+          <a href="#">view detail</a>
+        </div>
+      </figure>
+      <!-- 뉴스 -->
+      <section class="section">
+        <div class="inner">
+            <h2>recent news</h2>
+            <ul class="ul-section">
+                <li><a href="#"><img src="./images/images/news1.jpg" alt="뉴스 사진1"><p> <span>Lorem ipsum dolor sit,</span> amet consectetur adipisicing elit.
+                  Vitae minus, eaque corrupti vero ad maiores!</p></a></li>
+                <li><a href="#"><img src="./images/images/news2.jpg" alt="뉴스 사진2"><p> <span>Lorem ipsum dolor sit,</span> amet consectetur adipisicing elit.
+                  Vitae minus, eaque corrupti vero ad maiores!</p></a></li>
+                <li><a href="#"><img src="./images/images/news3.jpg" alt="뉴스 사진3"><p> <span>Lorem ipsum dolor sit,</span> amet consectetur adipisicing elit.
+                  Vitae minus, eaque corrupti vero ad maiores!</p></a></li>
+                <li><a href="#"><img src="./images/images/news4.jpg" alt="뉴스 사진4"><p> <span>Lorem ipsum dolor sit,</span> amet consectetur adipisicing elit.
+                  Vitae minus, eaque corrupti vero ad maiores!</p></a></li>
+            </ul>
+        </div>
+      </section>
+      <!-- 하단 -->
+      <footer class="footer"></footer>
     </div>
-</body>
-
+  </body>
 </html>
