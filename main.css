@@ -145,6 +145,7 @@ figure .inner a:hover {
     display: flex;
     gap: 20px;
     margin-top: 30px;
+    height: 400px;
 }
 
 .ul-section li{
@@ -154,9 +155,10 @@ figure .inner a:hover {
 
 .ul-section li img{
     width: 100%;
-    height: 100%;
     object-fit: cover;
+    height: 100%;
 }
+    
 
 .ul-section li p{
     text-align: left;
@@ -165,6 +167,42 @@ figure .inner a:hover {
 .ul-section li p span{
     font-weight: bold;
     display: block;
-    margin: 7px 0px`;
+    margin: 7px 0px;
 }
 /* 하단 */
+
+.footer{
+  padding: 100px;
+  background-color: #585858;
+}
+
+.upper{
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid #858585;
+  padding-bottom: 10px;
+}
+
+.upper > h2 > a{
+  color: rgb(170, 170, 170);
+}
+
+.upper-nav{
+  display: flex;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.upper-nav a{
+  color: rgb(212, 212, 212);
+}
+
+.address{
+  margin: 20px 0;
+  font-style: normal;
+  color: rgb(170, 170, 170);
+}
+
+.lower p {
+  color: rgb(170, 170, 170);
+}
